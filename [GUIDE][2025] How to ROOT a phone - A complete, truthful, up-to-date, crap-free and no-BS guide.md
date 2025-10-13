@@ -1,4 +1,4 @@
-<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-89871023" data-lb-caption-desc="IsHacker · Dec 26, 2024 at 4:39 AM">
+
 
 		
 			
@@ -7,12 +7,7 @@
 
 		
 
-		<article class="message-body js-selectToQuote">
-			
-				
-			
-			
-				<div class="bbWrapper"><h3>DISCLAIMER: This guide asumes that you can understand English well. I will not be responsible for any damage done to your device.​</h3><h4><b>This guide is based on Magisk, but it can be adapted for other systemless boot-image-based root solutions like APatch, Kitsune mask, etc.</b>​</h4><br>
+<h3>DISCLAIMER: This guide asumes that you can understand English well. I will not be responsible for any damage done to your device.​</h3><h4><b>This guide is based on Magisk, but it can be adapted for other systemless boot-image-based root solutions like APatch, Kitsune mask, etc.</b>​</h4><br>
 So there are a lot of myths, rumors, fake information and outdated steps regarding rooting, which are causing trouble for newbies who want to root their devices. I've decided to end all of this and create this guide which shows the correct method of rooting.<br>
 <br>
 <b>Before following the steps, make sure you have the latest version of </b><a href="https://developer.android.com/tools/releases/platform-tools" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener"><b>platform-tools</b></a><b> (i.e ADB and fastboot) on your PC. It is available for GNU/Linux, Windows and MacOS.</b><br>
@@ -21,14 +16,12 @@ So there are a lot of myths, rumors, fake information and outdated steps regardi
 1. Unlock the bootloader (Most probably will require PC access)<br>
 
 
-<div class="bbCodeSpoiler">
-	<button type="button" class="bbCodeSpoiler-button button--longText button rippleButton" data-xf-click="toggle" data-xf-init="tooltip" data-original-title="Click to reveal or hide spoiler" id="js-XFUniqueId20"><span class="button-text">
-
 		<span>Spoiler: <span class="bbCodeSpoiler-button-title">How to unlock the bootloader</span></span>
 	</span></button>
 	<div class="bbCodeSpoiler-content">
 		<div class="bbCodeBlock bbCodeBlock--spoiler">
 			<div class="bbCodeBlock-content"><a href="https://github.com/melontini/bootloader-unlock-wall-of-shame" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">This page</a> shows the method of unlocking the bootloader on major brands and SoCs.<br>
+
 If none of these work for you, try the traditional method:<br>
 1. Go to Settings &gt; About device (or something similar) and tap "Build number" several times rapidly until you get the "You are now a developer!" toast.<br>
 2. Enable OEM unlocking in Developer Options, and reboot to fastboot/bootloader mode.<br>
@@ -58,7 +51,7 @@ fastboot oem unlock</code></pre>
 <div class="bbCodeSpoiler">
 	<button type="button" class="bbCodeSpoiler-button button--longText button rippleButton" data-xf-click="toggle" data-xf-init="tooltip" data-original-title="Click to reveal or hide spoiler" id="js-XFUniqueId21"><span class="button-text">
 
-		<span>Spoiler: <span class="bbCodeSpoiler-button-title">Other ways to obtain the boot image</span></span>
+<span>Spoiler: <span class="bbCodeSpoiler-button-title">Other ways to obtain the boot image</span></span>
 	</span></button>
 	<div class="bbCodeSpoiler-content">
 		<div class="bbCodeBlock bbCodeBlock--spoiler">
@@ -172,31 +165,17 @@ fastboot flash boot_&lt;slot&gt; magisk_patched_xxx.img</code></pre>
 For these devices, the process is the same as rooting with Magisk. Just download the KernelSU app, patch your boot image and then flash the patched image. You can get the app here:<br>
 
 	
-
-	<div class="bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink" data-unfurl="true" data-result-id="2176607" data-url="https://github.com/tiann/KernelSU/releases" data-host="github.com" data-pending="false">
-		<div class="contentRow">
-			
-				<div class="contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure">
+<img src="/proxy.php?image=https%3A%2F%2Fopengraph.githubassets.com%2F28cdd9ae95c7e36c44d988ae4d11e48e8a4eba8f535dad374b1d562f0aadeb31%2Ftiann%2FKernelSU&amp;hash=0ddf79f1f6757293ec992ec812ce9c84&amp;return_error=1" alt="github.com" data-onerror="hide-parent">
 					
-						<img src="/proxy.php?image=https%3A%2F%2Fopengraph.githubassets.com%2F28cdd9ae95c7e36c44d988ae4d11e48e8a4eba8f535dad374b1d562f0aadeb31%2Ftiann%2FKernelSU&amp;hash=0ddf79f1f6757293ec992ec812ce9c84&amp;return_error=1" alt="github.com" data-onerror="hide-parent">
-					
-				</div>
-			
-			<div class="contentRow-main">
-				<h3 class="contentRow-header js-unfurl-title">
+<h3 class="contentRow-header js-unfurl-title">
 					<a href="https://github.com/tiann/KernelSU/releases" class="link link--external fauxBlockLink-blockLink" target="_blank" rel="ugc nofollow ugc noopener" data-proxy-href="">
 						Releases · tiann/KernelSU
 					</a>
 				</h3>
 
-				<div class="contentRow-snippet js-unfurl-desc">A Kernel based root solution for Android. Contribute to tiann/KernelSU development by creating an account on GitHub.</div>
-
-				<div class="contentRow-minor contentRow-minor--hideLinks">
-					<span class="js-unfurl-favicon" style="display: none;">
+<img src="/proxy.php?image=https%3A%2F%2Fgithub.githubassets.com%2Ffavicons%2Ffavicon.svg&amp;hash=39b48b32410d41e23249bf67277031ca&amp;return_error=1" alt="github.com" class="bbCodeBlockUnfurl-icon" data-onerror="hide-parent">
 						
-							<img src="/proxy.php?image=https%3A%2F%2Fgithub.githubassets.com%2Ffavicons%2Ffavicon.svg&amp;hash=39b48b32410d41e23249bf67277031ca&amp;return_error=1" alt="github.com" class="bbCodeBlockUnfurl-icon" data-onerror="hide-parent">
-						
-					</span>
+</span>
 					github.com
 				</div>
 			</div>
@@ -212,12 +191,6 @@ Beware that KernelSU is <b>extremely</b> buggy, and (for non-GKI devices) once y
 <br>
 <h2>References​</h2><b>[1]:</b> Use only the Bugjaeger app linked here. The "official" one on play store contains spyware and malicious, intrusive ads. It is actually a trojan horse virus. The developer is also very toxic, as you can see from his replies in play store reviews.<br>
 <b>[2]:</b> Use <code class="bbCodeInline">fastboot getvar current-slot</code> in fastboot to get the slot ("a" or "b"). You can also use the newly introduced <b>init_boot_&lt;slot&gt;.img</b> present in A/B devices instead of the regular boot image (boot_&lt;slot&gt;.img). <b> NOTE</b>: If you get the boot.img/init_boot.img from the stock ROM, the &lt;slot&gt; ("_a" or "_b") might not be present in the file name.</div>
-			
-			<div class="js-selectToQuoteEnd">&nbsp;</div>
-			
-				
-			
-		</article>
 
 		
 			
@@ -227,4 +200,3 @@ Beware that KernelSU is <b>extremely</b> buggy, and (for non-GKI devices) once y
 		
 
 		
-	</div>
