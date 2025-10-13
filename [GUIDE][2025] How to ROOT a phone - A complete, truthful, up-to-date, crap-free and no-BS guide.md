@@ -157,18 +157,14 @@ fastboot flash boot_&lt;slot&gt; magisk_patched_xxx.img</code></pre>
 For these devices, the process is the same as rooting with Magisk. Just download the KernelSU app, patch your boot image and then flash the patched image. You can get the app here:<br>
 
 	
-<img src="/proxy.php?image=https%3A%2F%2Fopengraph.githubassets.com%2F28cdd9ae95c7e36c44d988ae4d11e48e8a4eba8f535dad374b1d562f0aadeb31%2Ftiann%2FKernelSU&amp;hash=0ddf79f1f6757293ec992ec812ce9c84&amp;return_error=1" alt="github.com" data-onerror="hide-parent">
-					
-<h3 class="contentRow-header js-unfurl-title">
-					<a href="https://github.com/tiann/KernelSU/releases" class="link link--external fauxBlockLink-blockLink" target="_blank" rel="ugc nofollow ugc noopener" data-proxy-href="">
-						Releases · tiann/KernelSU
-					</a>
-				</h3>
 
-<img src="/proxy.php?image=https%3A%2F%2Fgithub.githubassets.com%2Ffavicons%2Ffavicon.svg&amp;hash=39b48b32410d41e23249bf67277031ca&amp;return_error=1" alt="github.com" class="bbCodeBlockUnfurl-icon" data-onerror="hide-parent">
+					
+<a href="https://github.com/tiann/KernelSU/releases" class="link link--external fauxBlockLink-blockLink" target="_blank" rel="ugc nofollow ugc noopener" data-proxy-href="">
+						Releases - tiann/KernelSU
+					</a>
+
 						
 </span>
-					github.com
 				</div>
 			</div>
 		</div>
@@ -183,12 +179,3 @@ Beware that KernelSU is <b>extremely</b> buggy, and (for non-GKI devices) once y
 <br>
 <h2>References​</h2><b>[1]:</b> Use only the Bugjaeger app linked here. The "official" one on play store contains spyware and malicious, intrusive ads. It is actually a trojan horse virus. The developer is also very toxic, as you can see from his replies in play store reviews.<br>
 <b>[2]:</b> Use <code class="bbCodeInline">fastboot getvar current-slot</code> in fastboot to get the slot ("a" or "b"). You can also use the newly introduced <b>init_boot_&lt;slot&gt;.img</b> present in A/B devices instead of the regular boot image (boot_&lt;slot&gt;.img). <b> NOTE</b>: If you get the boot.img/init_boot.img from the stock ROM, the &lt;slot&gt; ("_a" or "_b") might not be present in the file name.</div>
-
-		
-			
-
-	
-
-		
-
-		
