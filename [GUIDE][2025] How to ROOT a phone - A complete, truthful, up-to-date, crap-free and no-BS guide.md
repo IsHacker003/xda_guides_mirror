@@ -41,7 +41,6 @@ fastboot oem unlock</code></pre>
 <br>
 <details>
 	<summary>Spoiler: Other ways to obtain the boot image</summary>
-	<br>
 			<div class="bbCodeBlock-content"><h2>1. For A/B devices (universal):​</h2>Temporarily install a pre-rooted ("bvS") GSI (Generic System Image) which corresponds to your current Android version (For example, <a href="https://sourceforge.net/projects/andyyan-gsi/files/lineage-21-td/lineage-21.0-20250322-UNOFFICIAL-arm64_bvS.img.gz/download" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">this</a>) using the <a href="https://f-droid.org/en/packages/vegabobo.dsusideloader/" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">DSU Sideloader</a> app (DO NOT use fastbootd or anything else, as we only want the GSI temporarily). Remember to unzip the .gz/.xz file first to get the GSI's .img file. After rebooting into the GSI, enable USB Debugging and type any one of these ADB commands:<br>
 
 	
