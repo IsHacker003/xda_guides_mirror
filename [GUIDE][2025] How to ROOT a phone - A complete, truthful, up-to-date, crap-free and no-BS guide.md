@@ -35,7 +35,7 @@ fastboot oem unlock</code></pre>
 5. All your data will be erased and the device will be unlocked.</div>
 		</div>
 	</div>
-</div>
+</div><hr>
 </details>
 2. Get the boot.img (A-only devices) or boot_&lt;slot&gt;.img<b> [2]</b> (A/B devices). There are many ways to get them, but I'd recommend you get them by downloading and extracting the exact version of the ROM you're currently on. <b>Do NOT download loose images from the internet, not even from XDA!<br>
 </b>
@@ -114,7 +114,7 @@ fastboot oem pull init_boot_&lt;slot&gt;</code></pre>
 </div>The boot image file will be saved as a file called <b>data.out</b>. Change the extension to .img and rename it accordingly. Funny thing is that it works even with the bootloader locked and OEM unlocking disabled, but since Step 1 was to unlock your bootloader, I asume your bootloader is unlocked at this point.</div>
 		</div>
 	</div>
-</div>
+</div><hr>
 </details>
 3. Download the latest <a href="https://github.com/topjohnwu/Magisk/releases" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">Magisk app</a><br>
 4- Tap the first "Install" button in the app<br>
