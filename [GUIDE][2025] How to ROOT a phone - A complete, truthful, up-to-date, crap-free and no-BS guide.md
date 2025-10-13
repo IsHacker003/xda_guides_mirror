@@ -6,21 +6,17 @@ So there are a lot of myths, rumors, fake information and outdated steps regardi
 (If you don't have a PC, you can use the <a href="https://drive.google.com/file/d/15XT8FvcPKUH-fOsJTTUauEdC87fJevyp/view?usp=drive_link" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">Bugjaeger</a> <b>[1] </b>app to use platform-tools from another phone through OTG connection.)<br>
 <h2>Android 6.0+​</h2>Here are the steps:<br>
 1. Unlock the bootloader (Most probably will require PC access)<br>
+<br>
+<details>
+  <summary>Spoiler: How to unlock the bootloader</summary>
 
-
-<span>Spoiler: <span class="bbCodeSpoiler-button-title">How to unlock the bootloader</span></span>
-	</span></button>
-	<div class="bbCodeSpoiler-content">
-		<div class="bbCodeBlock bbCodeBlock--spoiler">
-			<div class="bbCodeBlock-content"><a href="https://github.com/melontini/bootloader-unlock-wall-of-shame" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">This page</a> shows the method of unlocking the bootloader on major brands and SoCs.<br>
+<div class="bbCodeSpoiler-content">
+<a href="https://github.com/melontini/bootloader-unlock-wall-of-shame" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">This page</a> shows the method of unlocking the bootloader on major brands and SoCs.<br>
 
 If none of these work for you, try the traditional method:<br>
 1. Go to Settings &gt; About device (or something similar) and tap "Build number" several times rapidly until you get the "You are now a developer!" toast.<br>
 2. Enable OEM unlocking in Developer Options, and reboot to fastboot/bootloader mode.<br>
 3. Connect the device to your PC (or the phone with Bugjaeger) and run:<br>
-
-	
-	
 
 
 <div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--code">
@@ -37,7 +33,9 @@ fastboot oem unlock</code></pre>
 5. All your data will be erased and the device will be unlocked.</div>
 		</div>
 	</div>
-</div>2. Get the boot.img (A-only devices) or boot_&lt;slot&gt;.img<b> [2]</b> (A/B devices). There are many ways to get them, but I'd recommend you get them by downloading and extracting the exact version of the ROM you're currently on. <b>Do NOT download loose images from the internet, not even from XDA!<br>
+</div>
+</details>
+2. Get the boot.img (A-only devices) or boot_&lt;slot&gt;.img<b> [2]</b> (A/B devices). There are many ways to get them, but I'd recommend you get them by downloading and extracting the exact version of the ROM you're currently on. <b>Do NOT download loose images from the internet, not even from XDA!<br>
 </b>
 
 <div class="bbCodeSpoiler">
