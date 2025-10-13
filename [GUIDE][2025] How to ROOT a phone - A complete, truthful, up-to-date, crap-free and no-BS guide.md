@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    
-  </head>
-<body>
 <div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-89871023" data-lb-caption-desc="IsHacker · Dec 26, 2024 at 4:39 AM">
 
 		
@@ -234,5 +228,3 @@ Beware that KernelSU is <b>extremely</b> buggy, and (for non-GKI devices) once y
 
 		
 	</div>
-</body>
-</html>
