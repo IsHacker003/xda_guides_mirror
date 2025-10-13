@@ -1,12 +1,4 @@
 
-
-		
-			
-
-	
-
-		
-
 <h3>DISCLAIMER: This guide asumes that you can understand English well. I will not be responsible for any damage done to your device.​</h3><h4><b>This guide is based on Magisk, but it can be adapted for other systemless boot-image-based root solutions like APatch, Kitsune mask, etc.</b>​</h4><br>
 So there are a lot of myths, rumors, fake information and outdated steps regarding rooting, which are causing trouble for newbies who want to root their devices. I've decided to end all of this and create this guide which shows the correct method of rooting.<br>
 <br>
