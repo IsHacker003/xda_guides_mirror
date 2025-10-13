@@ -38,9 +38,10 @@ fastboot oem unlock</code></pre>
 </details>
 2. Get the boot.img (A-only devices) or boot_&lt;slot&gt;.img<b> [2]</b> (A/B devices). There are many ways to get them, but I'd recommend you get them by downloading and extracting the exact version of the ROM you're currently on. <b>Do NOT download loose images from the internet, not even from XDA!<br>
 </b>
-
+<br>
 <details>
 	<summary>Spoiler: Other ways to obtain the boot image</summary>
+	<br>
 			<div class="bbCodeBlock-content"><h2>1. For A/B devices (universal):​</h2>Temporarily install a pre-rooted ("bvS") GSI (Generic System Image) which corresponds to your current Android version (For example, <a href="https://sourceforge.net/projects/andyyan-gsi/files/lineage-21-td/lineage-21.0-20250322-UNOFFICIAL-arm64_bvS.img.gz/download" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">this</a>) using the <a href="https://f-droid.org/en/packages/vegabobo.dsusideloader/" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">DSU Sideloader</a> app (DO NOT use fastbootd or anything else, as we only want the GSI temporarily). Remember to unzip the .gz/.xz file first to get the GSI's .img file. After rebooting into the GSI, enable USB Debugging and type any one of these ADB commands:<br>
 
 	
@@ -137,7 +138,7 @@ A/B:
 fastboot flash init_boot_&lt;slot&gt; magisk_patched_xxx.img
 OR
 fastboot flash boot_&lt;slot&gt; magisk_patched_xxx.img</code></pre>
-	</div>
+	</div><br>
 </div><b><u>Common misconception:</u></b> some people have suggested that you need to flash a patched vbmeta image for magisk to work properly. This is <b>NOT</b> needed, Magisk will handle everything automatically.<br>
 8. Reboot into Android and open the Magisk app again.<br>
 9. You will see the "Requires Additional Setup" prompt. Tap OK and let the device reboot.<br>
