@@ -11,6 +11,7 @@ So there are a lot of myths, rumors, fake information and outdated steps regardi
   <summary>Spoiler: How to unlock the bootloader</summary>
 
 <div class="bbCodeSpoiler-content">
+<br>
 <a href="https://github.com/melontini/bootloader-unlock-wall-of-shame" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">This page</a> shows the method of unlocking the bootloader on major brands and SoCs.<br>
 
 If none of these work for you, try the traditional method:<br>
