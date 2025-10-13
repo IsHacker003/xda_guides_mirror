@@ -140,6 +140,7 @@ OR
 fastboot flash boot_&lt;slot&gt; magisk_patched_xxx.img</code></pre>
 	</div><br>
 </div><b><u>Common misconception:</u></b> some people have suggested that you need to flash a patched vbmeta image for magisk to work properly. This is <b>NOT</b> needed, Magisk will handle everything automatically.<br>
+<br>
 8. Reboot into Android and open the Magisk app again.<br>
 9. You will see the "Requires Additional Setup" prompt. Tap OK and let the device reboot.<br>
 10. After the device has finished booting, you should have proper root access. Congratulations!<br>
