@@ -8,7 +8,7 @@ So there are a lot of myths, rumors, fake information and outdated steps regardi
 1. Unlock the bootloader (Most probably will require PC access)<br>
 
 
-		<span>Spoiler: <span class="bbCodeSpoiler-button-title">How to unlock the bootloader</span></span>
+<span>Spoiler: <span class="bbCodeSpoiler-button-title">How to unlock the bootloader</span></span>
 	</span></button>
 	<div class="bbCodeSpoiler-content">
 		<div class="bbCodeBlock bbCodeBlock--spoiler">
