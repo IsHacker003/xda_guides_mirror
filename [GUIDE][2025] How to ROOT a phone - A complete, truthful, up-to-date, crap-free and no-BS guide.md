@@ -4,7 +4,8 @@ So there are a lot of myths, rumors, fake information and outdated steps regardi
 <br>
 <b>Before following the steps, make sure you have the latest version of </b><a href="https://developer.android.com/tools/releases/platform-tools" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener"><b>platform-tools</b></a><b> (i.e ADB and fastboot) on your PC. It is available for GNU/Linux, Windows and MacOS.</b><br>
 (If you don't have a PC, you can use the <a href="https://drive.google.com/file/d/15XT8FvcPKUH-fOsJTTUauEdC87fJevyp/view?usp=drive_link" target="_blank" class="link link--external" rel="ugc nofollow ugc noopener">Bugjaeger</a> <b>[1] </b>app to use platform-tools from another phone through OTG connection.)<br>
-<h2>Android 6.0+​</h2>Here are the steps:<br>
+<h2>Android 6.0+​</h2><b>Here are the steps:</b>
+<br><br>
 1. Unlock the bootloader (Most probably will require PC access)<br>
 <br>
 <details>
