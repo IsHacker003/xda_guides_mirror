@@ -170,7 +170,7 @@ For these devices, the process is the same as rooting with Magisk. Just download
 <h3>Non-GKI devices​</h3>These are older devices which have lower (non-GKI) kernel versions, for example 4.19.<br>
 To use KernelSU on these devices, you need to find a supported custom kernel, or compile one on your own. Then, you need to flash the custom kernel through TWRP or some other custom recovery.<br>
 <br>
-After you have completed the above process, just install the KernelSU app, which you can get from the link above. To grant root to any app, you need to go to the Superuser tab and <b>manually</b> enable superuser for that app.<br>
+After you have completed the above process, just install the KernelSU app, which you can get from the link above. Note that for **non-GKI** devices, you will need to install **version v1.0.1 or older** instead of the latest version, as later versions of the app won't let you install modules. To grant root to any app, you need to go to the Superuser tab and <b>manually</b> enable superuser for that app.<br>
 Beware that KernelSU is <b>extremely</b> buggy, and (for non-GKI devices) once you have installed/compiled a kernel with KernelSU, there is <b>no way </b>to remove it unless you change your kernel (or modify the kernel source to remove it).<br>
 <br>
 <b><u>NOTE: </u>Compiling a custom kernel is out of the scope of this guide. I can only wish you good luck if you are going this way.</b><br>
