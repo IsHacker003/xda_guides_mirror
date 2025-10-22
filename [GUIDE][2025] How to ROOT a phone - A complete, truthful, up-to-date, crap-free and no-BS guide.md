@@ -1,4 +1,3 @@
-
 <h3>DISCLAIMER: This guide asumes that you can understand English well. I will not be responsible for any damage done to your device.​</h3><h4><b>This guide is based on Magisk, but it can be adapted for other systemless boot-image-based root solutions like APatch, Kitsune mask, etc.</b>​</h4><br>
 So there are a lot of myths, rumors, fake information and outdated steps regarding rooting, which are causing trouble for newbies who want to root their devices. I've decided to end all of this and create this guide which shows the correct method of rooting.<br>
 <br>
@@ -174,6 +173,24 @@ After you have completed the above process, just install the KernelSU app, which
 Beware that KernelSU is <b>extremely</b> buggy, and (for non-GKI devices) once you have installed/compiled a kernel with KernelSU, there is <b>no way </b>to remove it unless you change your kernel (or modify the kernel source to remove it).<br>
 <br>
 <b><u>NOTE: </u>Compiling a custom kernel is out of the scope of this guide. I can only wish you good luck if you are going this way.</b><br>
+<br>
+<h2>Troubleshooting:​</h2>
+<h3>1. Bootloop​</h3>
+If you are getting bootloop, it either means that you used a wrong boot image or you need a different version of Magisk.
+Ensure that you used the boot image from the current version of your installed ROM, and if it still doesn't work, try different versions of Magisk.
+<br>
+<h3>2. Weird issues like screen glitch, WiFi/BT/GPS/Camera/RIL not working, etc.​</h3>
+It means you used a wrong boot image or downloaded a pre-patched one from the internet. Get the boot image from the current version of your ROM and patch it.
+<br>
+<h3>3. I flashed the patched boot image, but Magisk app does not detect that it is installed?</h3>​
+Try different versions of Magisk, or use an alternative like APatch or Kitsune Mask.
+<br>
+<h3>4- Device not detected by adb/fastboot​</h3>
+If you have Windows, ensure you installed the correct drivers. Otherwise, try different USB cables and ports.
+On GNU/Linux or macOS, check if your device is detected by sudo lsusb. If it isn't, it usually indicates a damaged USB port either on the device or the computer, or a damaged cable.
+<br>
+<h3>5. Banking apps are detecting root!​</h3>
+There is a huge cat-and-mouse game going on regarding this. There are tons of modules and methods to hide root from apps, but I won't go into those as I don't support their philosophy. If you root your device, you should be proud of it, and not "hide" it. I suggest you to remove the "banking" app and use cash.
 <br>
 <h2>References​</h2><b>[1]:</b> Use only the Bugjaeger app linked here. The "official" one on play store contains spyware and malicious, intrusive ads. It is actually a trojan horse virus. The developer is also very toxic, as you can see from his replies in play store reviews.<br>
 <b>[2]:</b> Use <code class="bbCodeInline">fastboot getvar current-slot</code> in fastboot to get the slot ("a" or "b"). You can also use the newly introduced <b>init_boot_&lt;slot&gt;.img</b> present in A/B devices instead of the regular boot image (boot_&lt;slot&gt;.img). <b> NOTE</b>: If you get the boot.img/init_boot.img from the stock ROM, the &lt;slot&gt; ("_a" or "_b") might not be present in the file name.</div>
