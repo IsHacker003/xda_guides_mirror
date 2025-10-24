@@ -187,7 +187,7 @@ Try different versions of Magisk, or use an alternative like APatch or Kitsune M
 <br>
 <h3>4- Device not detected by adb/fastboot​</h3>
 If you have Windows, ensure you installed the correct drivers. Otherwise, try different USB cables and ports.
-On GNU/Linux or macOS, check if your device is detected by sudo lsusb. If it isn't, it usually indicates a damaged USB port either on the device or the computer, or a damaged cable.
+On GNU/Linux or macOS, check if your device is detected by `sudo lsusb`. If it isn't, it usually indicates a damaged USB port either on the device or the computer, or a damaged cable.
 <br>
 <h3>5. Banking apps are detecting root!​</h3>
 There is a huge cat-and-mouse game going on regarding this. There are tons of modules and methods to hide root from apps, but I won't go into those as I don't support their philosophy. If you root your device, you should be proud of it, and not "hide" it. I suggest you to remove the "banking" app and use cash.
